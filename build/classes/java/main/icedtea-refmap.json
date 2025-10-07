@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "com/tejas/icedtea/mixin/BlockEntityRenderDispatcherMixin": {
+      "render": "Lnet/minecraft/class_824;method_3555(Lnet/minecraft/class_2586;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+    },
+    "com/tejas/icedtea/mixin/EntityRenderDispatcherMixin": {
+      "render": "Lnet/minecraft/class_898;method_3954(Lnet/minecraft/class_1297;DDDFFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "com/tejas/icedtea/mixin/ParticleAccessor": {
+      "xo": "field_3858:D",
+      "yo": "field_3838:D",
+      "zo": "field_3856:D"
+    },
+    "com/tejas/icedtea/mixin/ParticleEngineMixin": {
+      "render": "Lnet/minecraft/class_702;method_3049(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_765;Lnet/minecraft/class_4184;F)V",
+      "tick": "Lnet/minecraft/class_702;method_3057()V"
+    },
+    "com/tejas/icedtea/mixin/WorldRendererMixin": {
+      "Lnet/minecraft/client/renderer/LevelRenderer;setupRender(Lnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/culling/Frustum;ZZ)V": "Lnet/minecraft/class_761;method_3273(Lnet/minecraft/class_4184;Lnet/minecraft/class_4604;ZZ)V",
+      "allChanged": "Lnet/minecraft/class_761;method_3279()V",
+      "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/tejas/icedtea/mixin/BlockEntityRenderDispatcherMixin": {
+        "render": "Lnet/minecraft/class_824;method_3555(Lnet/minecraft/class_2586;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+      },
+      "com/tejas/icedtea/mixin/EntityRenderDispatcherMixin": {
+        "render": "Lnet/minecraft/class_898;method_3954(Lnet/minecraft/class_1297;DDDFFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "com/tejas/icedtea/mixin/ParticleAccessor": {
+        "xo": "field_3858:D",
+        "yo": "field_3838:D",
+        "zo": "field_3856:D"
+      },
+      "com/tejas/icedtea/mixin/ParticleEngineMixin": {
+        "render": "Lnet/minecraft/class_702;method_3049(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_765;Lnet/minecraft/class_4184;F)V",
+        "tick": "Lnet/minecraft/class_702;method_3057()V"
+      },
+      "com/tejas/icedtea/mixin/WorldRendererMixin": {
+        "Lnet/minecraft/client/renderer/LevelRenderer;setupRender(Lnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/culling/Frustum;ZZ)V": "Lnet/minecraft/class_761;method_3273(Lnet/minecraft/class_4184;Lnet/minecraft/class_4604;ZZ)V",
+        "allChanged": "Lnet/minecraft/class_761;method_3279()V",
+        "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+      }
+    }
+  }
+}

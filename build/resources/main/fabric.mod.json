@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "icedtea",
+  "version": "1.0+1.20.1 - 1.20.4",
+  "name": "IcedTea",
+  "description": "Advanced performance optimization mod with multi-threaded occlusion culling",
+  "authors": ["Tejas Dsouza"],
+"contact": {
+    "homepage": "https://tejasdsouza7.space",
+    "issues": "https://github.com/tejasdsouza/IcedTea/issues",
+    "sources": "https://github.com/Tejasdsouza/IcedTea"
+  },
+  "icon": "assets/icedtea/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.tejas.icedtea.IcedTeaMod"]
+  },
+  "mixins": ["icedtea.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20.1 <=1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

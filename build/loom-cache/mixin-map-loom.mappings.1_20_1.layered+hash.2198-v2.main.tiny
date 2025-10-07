@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	com/tejas/icedtea/mixin/ParticleEngineMixin	Ljava/util/Map;	particles	field_3830
+FIELD	com/tejas/icedtea/mixin/WorldRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4088
+FIELD	com/tejas/icedtea/mixin/WorldRendererMixin	Lnet/minecraft/client/renderer/culling/Frustum;	cullingFrustum	field_27740
